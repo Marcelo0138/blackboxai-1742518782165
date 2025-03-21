@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://taskmanager.com/sitemap.xml
+
+Disallow: /login
+Disallow: /register
+Disallow: /forgot-password
+Disallow: /reset-password
+Disallow: /api/
+Disallow: /dashboard
+Disallow: /profile
+Disallow: /settings
+Disallow: /projects/*
+Disallow: /tasks/*
+
+Allow: /
+Allow: /about
+Allow: /features
+Allow: /pricing
+Allow: /contact
+Allow: /terms
+Allow: /privacy
+Allow: /help
